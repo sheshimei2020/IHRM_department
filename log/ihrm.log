@@ -1,0 +1,8 @@
+2020-06-14 10:43:03,024 INFO [root] [__init__.py(<module>:8)]  Test日志会不会打印!!!
+2020-06-14 10:43:03,213 INFO [root] [test_ihrm_department.py(test01_login_success:30)]  登录接口返回的结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '13509a39-46ab-4b24-b2e7-bd07a98337bb'}
+2020-06-14 10:43:03,213 INFO [root] [test_ihrm_department.py(test01_login_success:36)]  保存到全局变量中的请求头为:{'Content-Type': 'application/json', 'Authorization': 'Bearer 13509a39-46ab-4b24-b2e7-bd07a98337bb'}
+2020-06-14 10:43:03,294 INFO [root] [test_ihrm_department.py(test02_add_dept:53)]  添加部门的结果是:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1271996643494932480'}}
+2020-06-14 10:43:03,294 INFO [root] [test_ihrm_department.py(test02_add_dept:57)]  保存到全局变量的部门id是:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1271996643494932480'}}
+2020-06-14 10:43:03,372 INFO [root] [test_ihrm_department.py(test03_modify_dept:73)]  修改员工的结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2020-06-14 10:43:03,450 INFO [root] [test_ihrm_department.py(test04_query_dept:85)]  查询部门的结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1271996643494932480', 'pid': None, 'companyId': '1', 'name': '国际资源部002', 'code': 'DEPT-GJZY', 'managerId': None, 'manager': '', 'introduce': '', 'createTime': None}}
+2020-06-14 10:43:03,515 INFO [root] [test_ihrm_department.py(test05_delete_dept:97)]  删除部门的结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
